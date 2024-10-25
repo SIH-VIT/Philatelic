@@ -1,3 +1,7 @@
 @use "./queries.scss" as *;
 @use "./variables.scss" as *;
 @use "./colors.scss" as *;
+
+h1 {
+    color: $primary-color;
+}
