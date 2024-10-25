@@ -1,0 +1,54 @@
+@import '../../app/styles/colors.scss';
+
+.btn {
+    display: flex;
+    border-radius: 12px;
+    padding: 0.3rem 1.5rem;
+    margin-block: 1rem;
+    color: #000606;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 210px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s linear;
+
+    &:hover {
+        background: $primary-hover;
+    }
+
+    &:focus {
+        outline: 2px solid #000606;
+    }
+}
+
+.prime {
+    background: $primary-color;
+    color: #000606;
+
+    &:hover {
+        background: $primary-hover;
+    }
+}
+
+.xl {
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+}
+
+
+.sm {
+    font-size: 1rem;
+    padding: 0.1rem 0.5rem;
+}
+
+.primary {
+    background: $text-light;
+    color: #000606;
+
+    &:hover {
+        background: $text-light;
+    }
+}
